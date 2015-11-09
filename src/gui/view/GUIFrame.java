@@ -22,6 +22,7 @@ public class GUIFrame extends JFrame
 	private void setupFrame()
 	{
 		this.setSize(400,400);
+		this.setResizable(false); //can't change size of window
 		this.setVisible(true);
 	}
 }
