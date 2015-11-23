@@ -6,6 +6,7 @@ import javax.swing.SpringLayout; //for layout
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.Color;
+import java.awt.*;
 
 public class GUIPanel extends JPanel
 {
@@ -60,6 +61,11 @@ public class GUIPanel extends JPanel
 			{
 				firstTextField.setText("Much Wow, this is the most amazing click event ever! WOW");
 			}
+		});
+		
+		this.addMouseListener(new MouseListener()
+		{
+			
 		});
 	}
 }	
