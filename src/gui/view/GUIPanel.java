@@ -2,11 +2,8 @@ package gui.view;
 
 import javax.swing.*;
 import gui.controller.GUIController;
-import javax.swing.SpringLayout; //for layout
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.Color;
-import java.awt.*;
+import java.awt.event.*;
 
 public class GUIPanel extends JPanel
 {
@@ -65,7 +62,26 @@ public class GUIPanel extends JPanel
 		
 		this.addMouseListener(new MouseListener()
 		{
-			
+			public void mouseClicked(MouseEvent click)
+			{
+				
+			}
+			public void mouseEntered(MouseEvent entered)
+			{
+				
+			}
+			public void mousePressed(MouseEvent pressed)
+			{
+				
+			}
+			public void mouseReleased(MouseEvent released)
+			{
+				
+			}
+			public void mouseExited(MouseEvent exited)
+			{
+				
+			}
 		});
 	}
 }	
